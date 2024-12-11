@@ -1,0 +1,13 @@
+body {
+  font-family: "Arsenal SC", sansSerif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.title-form {
+  color: #214e34;
+}
+
+.title-numbers {
+  color: #4361ee;
+}

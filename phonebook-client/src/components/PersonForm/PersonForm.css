@@ -1,0 +1,24 @@
+.card {
+  border: 3px solid #fca311;
+  background-color: #eae2b7;
+}
+
+.input-style {
+  border: 3px solid #214e34;
+}
+
+.button-style {
+  background-color: #214e34;
+  border: #214e34;
+}
+
+.button-style:hover {
+  background-color: #132a13;
+  border: #132a13;
+}
+
+.button-style.btn:active {
+  background-color: #132a13;
+  border: #132a13;
+}
+
