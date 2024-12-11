@@ -13,7 +13,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use(express.static(path.join(__dirname, '../phonebook-client/dist')));
+app.use(express.static('dist'));
 app.use(middleware.requestLogger);
 app.use("/api/persons", phonebookRouter);
 app.use(middleware.unknownEndpoint);
